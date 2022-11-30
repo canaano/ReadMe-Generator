@@ -30,7 +30,8 @@ ${data.License ? data.License : ""}
   ${data.Testing}
   ## Questions? 
   Email Me: ${data.Email}
-  My Github: https://github.com/${data.username}
+  
+  My Github: https://github.com/${data.Username}
 
 `;
 }
