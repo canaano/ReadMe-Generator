@@ -6,12 +6,12 @@ function generateMarkdown(data) {
 ${data.License ? data.License : ""} 
 
   ## Table of Contents 
-  [Description](#Description)<br />
-  [Installation Instructions](#Installation-instructions)<br />
-  [Usage Information](#Usage-information)<br />
-  [Contributing Guidelines](#Contribution-guidelines)<br />
-  [Testing Instructions](#Testing-instructions)<br />
-  [Questions](#Questions)<br />
+  [Description](#description)<br />
+  [Installation Instructions](#installation-instructions)<br />
+  [Usage Information](#usage-information)<br />
+  [Contributing Guidelines](#contribution-guidelines)<br />
+  [Testing Instructions](#testing-instructions)<br />
+  [Questions](#questions)<br />
   
   ## Title of Application
   ${data.Title}
@@ -30,7 +30,7 @@ ${data.License ? data.License : ""}
   ${data.Testing}
   ## Questions? 
   Email Me: ${data.Email}
-  
+
   My Github: https://github.com/${data.Username}
 
 `;
